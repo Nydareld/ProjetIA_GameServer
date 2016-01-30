@@ -1,0 +1,41 @@
+
+*~
+__pycache__/
+
+tuto/static/images/*
+
+.DS_Store
+/.DS_Store
+tuto/.DS_Store
+tuto/templates/.DS_Store
+
+
+*.py[co]
+*.DS_*
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+
+#Translations
+*.mo
+
+#Mr Developer
+venv
+*.pyc
+build
