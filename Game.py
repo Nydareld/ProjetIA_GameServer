@@ -2,6 +2,8 @@
 
 import random
 
+gameSize=10000
+
 class Game:
     """
     Classe qui définit le jeu
@@ -31,8 +33,8 @@ class Player:
         if username != "PNJ":
             self.spheres.append(
                 Sphere(
-                    posX= random.randint(1, 100),
-                    posY= random.randint(1, 100),
+                    posX= random.randint(1, gameSize),
+                    posY= random.randint(1, gameSize),
                     taille=10
             ))
 
