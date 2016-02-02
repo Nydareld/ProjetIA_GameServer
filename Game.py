@@ -9,10 +9,12 @@ class Game:
     Classe qui définit le jeu
 
     atributs :
+        gameSize : taille du plateau (carré)
         joueurs : Un dictionaire des joueurs avec Nom:joueur
                         (Il y a un joueur nommé PNJ qui contient des spheres qui apparaissent aléatoirement)
     """
     def __init__(self):
+        self.gameSize = gameSize
         self.joueurs = dict()
         self.joueurs["PNJ"] = Player(ia="",username="PNJ")
 

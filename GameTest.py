@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy
 import string
 import json
-import .Game
+from Game import *
 
 game = Game()
 
@@ -14,8 +14,8 @@ for i in range(3):
 
 pnj = game.joueurs['PNJ']
 
-for i in range(10):
-    pnj.spheres.append(Sphere(posX= random.randint(1, 100),posY= random.randint(1, 100),taille=random.randint(1, 3)))
+for i in range(1000):
+    pnj.spheres.append(Sphere(posX= random.randint(1, 10000),posY= random.randint(1, 10000),taille=1))
 
 for joueur in game.joueurs.values():
     for sphere in joueur.spheres:
@@ -23,4 +23,4 @@ for joueur in game.joueurs.values():
 
 plt.show()
 
-print(json.dumps(game, default=lambda o: o.__dict__))
+#print(json.dumps(game, default=lambda o: o.__dict__))
