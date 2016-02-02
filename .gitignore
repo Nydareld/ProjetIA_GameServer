@@ -9,6 +9,7 @@ tuto/static/images/*
 tuto/.DS_Store
 tuto/templates/.DS_Store
 
+/SocketServer
 
 *.py[co]
 *.DS_*
