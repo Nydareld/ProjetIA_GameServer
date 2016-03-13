@@ -1,0 +1,16 @@
+
+Decompiling...
+Z:\nydareld\Documents\Programmation\python\projetIA\GameServer\__pycache__\clientTest.cpython-35.pyc
+Invalid pyc/pyo file - Magic value mismatch!
+
+Decompiling...
+Z:\nydareld\Documents\Programmation\python\projetIA\GameServer\__pycache__\game.cpython-35.pyc
+Invalid pyc/pyo file - Magic value mismatch!
+
+Decompiling...
+Z:\nydareld\Documents\Programmation\python\projetIA\GameServer\__pycache__\Game.cpython-35.pyc
+Invalid pyc/pyo file - Magic value mismatch!
+
+Decompiling...
+Z:\nydareld\Documents\Programmation\python\projetIA\GameServer\__pycache__\PlayerSocket.cpython-35.pyc
+Invalid pyc/pyo file - Magic value mismatch!

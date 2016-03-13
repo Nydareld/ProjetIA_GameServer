@@ -1,111 +1,182 @@
 {
-    "joueurs":
-    {
-        "dgsgf":
-        {
-            "ia": "",
-            "username": "dgsgf",
-            "spheres":
-            [{
-                "taille": 10,
-                "coefitionVitesse": 0,
-                "posY": 24,
-                "angle": 0,
-                "posX": 52
-            }]
-        },
-        "PNJ":
-        {
-            "ia": "",
-            "username": "PNJ",
-            "spheres":
-            [{
-                "taille": 1,
-                "coefitionVitesse": 0,
-                "posY": 25,
-                "angle": 0,
-                "posX": 63
-            },{
-                "taille": 2,
-                "coefitionVitesse": 0,
-                "posY": 37,
-                "angle": 0,
-                "posX": 13
-            },{
-                "taille": 1,
-                "coefitionVitesse": 0,
-                "posY": 85,
-                "angle": 0,
-                "posX": 17
-            }, {
-                "taille": 3,
-                "coefitionVitesse": 0,
-                "posY": 54,
-                "angle": 0,
-                "posX": 17
-            }, {
-                "taille": 3,
-                "coefitionVitesse": 0,
-                "posY": 69,
-                "angle": 0,
-                "posX": 84
-            }, {
-                "taille": 1,
-                "coefitionVitesse": 0,
-                "posY": 41,
-                "angle": 0,
-                "posX": 74
-            }, {
-                "taille": 2,
-                "coefitionVitesse": 0,
-                "posY": 50,
-                "angle": 0,
-                "posX": 60
-            }, {
-                "taille": 2,
-                "coefitionVitesse": 0,
-                "posY": 85,
-                "angle": 0,
-                "posX": 85
-            }, {
-                "taille": 2,
-                "coefitionVitesse": 0,
-                "posY": 87,
-                "angle": 0,
-                "posX": 95
-            }, {
-                "taille": 2,
-                "coefitionVitesse": 0,
-                "posY": 90,
-                "angle": 0,
-                "posX": 18
-            }]
-        },
-        "sgdsd":
-        {
-            "ia": "",
-            "username": "sgdsd",
-            "spheres":
-            [{
-                "taille": 10,
-                "coefitionVitesse": 0,
-                "posY": 30,
-                "angle": 0,
-                "posX": 5
-            }]
-        },
-        "sdgfs":
-        {
-            "ia": "",
-            "username": "sdgfs",
-            "spheres":
-            [{
-                "taille": 10,
-                "coefitionVitesse": 0,
-                "posY": 17,
-                "angle": 0,
-                "posX": 72
-            }]
-        }
-    }
+   "joueurs":{
+      "{\"Ia\": \"rand\", \"Username\": \"fqsd\"}":{
+         "ia":"rand",
+         "username":"fqsd",
+         "spheres":[
+            {
+               "vectPos":[
+                  10000,
+                  7172.5
+               ],
+               "taille":10,
+               "vectAcceleration":[
+                  4,
+                  1
+               ],
+               "vectVitesse":[
+                  281,
+                  74
+               ]
+            }
+         ]
+      },
+      "PNJ":{
+         "ia":"",
+         "username":"PNJ",
+         "spheres":[
+            {
+               "vectPos":[
+                  6973,
+                  5824
+               ],
+               "taille":1,
+               "vectAcceleration":[
+                  0,
+                  0
+               ],
+               "vectVitesse":[
+                  0,
+                  0
+               ]
+            },
+            {
+               "vectPos":[
+                  19,
+                  7239
+               ],
+               "taille":1,
+               "vectAcceleration":[
+                  0,
+                  0
+               ],
+               "vectVitesse":[
+                  0,
+                  0
+               ]
+            },
+            {
+               "vectPos":[
+                  4479,
+                  8295
+               ],
+               "taille":1,
+               "vectAcceleration":[
+                  0,
+                  0
+               ],
+               "vectVitesse":[
+                  0,
+                  0
+               ]
+            },
+            {
+               "vectPos":[
+                  1615,
+                  3583
+               ],
+               "taille":1,
+               "vectAcceleration":[
+                  0,
+                  0
+               ],
+               "vectVitesse":[
+                  0,
+                  0
+               ]
+            },
+            {
+               "vectPos":[
+                  3133,
+                  6820
+               ],
+               "taille":1,
+               "vectAcceleration":[
+                  0,
+                  0
+               ],
+               "vectVitesse":[
+                  0,
+                  0
+               ]
+            },
+            {
+               "vectPos":[
+                  7598,
+                  1678
+               ],
+               "taille":1,
+               "vectAcceleration":[
+                  0,
+                  0
+               ],
+               "vectVitesse":[
+                  0,
+                  0
+               ]
+            },
+            {
+               "vectPos":[
+                  6519,
+                  5820
+               ],
+               "taille":1,
+               "vectAcceleration":[
+                  0,
+                  0
+               ],
+               "vectVitesse":[
+                  0,
+                  0
+               ]
+            },
+            {
+               "vectPos":[
+                  3658,
+                  3846
+               ],
+               "taille":1,
+               "vectAcceleration":[
+                  0,
+                  0
+               ],
+               "vectVitesse":[
+                  0,
+                  0
+               ]
+            },
+            {
+               "vectPos":[
+                  5626,
+                  7500
+               ],
+               "taille":1,
+               "vectAcceleration":[
+                  0,
+                  0
+               ],
+               "vectVitesse":[
+                  0,
+                  0
+               ]
+            },
+            {
+               "vectPos":[
+                  6948,
+                  4464
+               ],
+               "taille":1,
+               "vectAcceleration":[
+                  0,
+                  0
+               ],
+               "vectVitesse":[
+                  0,
+                  0
+               ]
+            }
+         ]
+      }
+   },
+   "gameSize":10000
 }

@@ -11,18 +11,8 @@ from PlayerSocket import *
 4./ Démarer le serveur
 """
 
-#Création du Jeu
-game = Game()
-
-#Récupération du PNJ
-pnj = game.joueurs['PNJ']
-
-#Création de 1000 spheres PNJ de taille 1
-for i in range(1000):
-    pnj.spheres.append(Sphere(posX= random.randint(1, game.gameSize),posY= random.randint(1,game.gameSize),taille=1))
-
 if __name__ == "__main__":
-    HOST, PORT = "localhost", 7777
+    HOST, PORT = "localhost", 4444
 
     server = ThreadedTCPGameServer((HOST, PORT),ThreadedTCPRequestHandler)
 
